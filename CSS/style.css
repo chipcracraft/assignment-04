@@ -1,0 +1,252 @@
+*{ box-sizing: border-box;
+  /*outline: rgba(100,0,0, .25) 1px solid;*/
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+body {
+  margin: 0;
+  background: 0;
+
+}
+
+p {
+  font-size: 14px;
+}
+
+.border-around {
+  padding: 20px;
+  background-color: #DEDEDE;
+}
+
+#app-container {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #FEFEFE;
+  font-size: 12px;
+  /*display: inline-block;*/
+}
+
+header {
+  width: 100%;
+  font-size: 0;
+  background-color: #2C2C2C;
+  }
+
+
+  .logo {
+    display: inline-block;
+    width: 15%;
+
+  }
+
+  .label {
+    display: inline-block;
+    width: 53%;
+  }
+
+
+
+.top-menu {
+  background-color: #2C2C2C;
+  padding: 12px;
+  font-size: 12px;
+  color: white;
+  word-spacing: 15px;
+}
+
+.mini-menu p {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #FCF7E5;
+    display: inline-block;
+    font-size: medium;
+    vertical-align: top;
+  }
+
+  .mini-menu mark {
+    background-color: #E8F1F9;
+    padding: 5px;
+
+}
+
+
+.right-column,.leftcolumn {
+      display: inline-block;
+}
+.right-column  {
+  width: 35%;
+  vertical-align: top;
+  padding: 40px 0 0 50px;
+  font-size: small;
+
+
+}
+
+
+.art, .sunday, .family {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+
+.events, .programs, .zone {
+  display: inline-block;
+  width: 60%;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+
+.events h6  {
+  margin: 0;
+}
+
+.programs h6 {
+  margin: 0;
+}
+
+.zone h6 {
+  margin: 0;
+}
+
+.view {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.leftcolumn {
+  display:inline-block;
+  width: 64%;
+  font-size: medium;
+  }
+
+  .campus {
+    padding-bottom: 20px;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    }
+
+
+
+.mfah {
+  display: inline-block;
+  margin: 0;
+  width: 49%;
+  padding-top: 40px;
+
+}
+
+.mfah img {
+  vertical-align: top;
+  height: 200px;
+  padding-bottom: 50px;
+  margin: 0;
+
+  }
+
+.learn {
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+
+
+
+  .alfred {
+    display: inline-block;
+    }
+
+  .glass h3 {
+    text-align: left;
+  }
+
+.glassell {
+  display: inline-block;
+  width: 34%;
+  }
+
+  .school {
+vertical-align: top;
+align: left;
+height:300px;
+padding-bottom: 30px;
+
+}
+
+
+  .photo-info {
+    font-size: 12px;
+    display:inline-block;
+    width: 65%;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    }
+
+    .photo-info h4 {
+      line-height: .25px;
+      }
+
+
+.footer-main {
+    border-top: 1px solid #DEDEDE;
+}
+
+.footer-main div {
+  display:inline-block;
+  width: 23%;
+  padding-left: 10px;
+  font-size: 7px;
+  text-align: left;
+  padding-top: 10px;
+
+}
+
+.footer-main span {
+  color: #D27161;
+  font-size: 5px;
+
+}
+
+.search-box {
+  width: 250px;
+  position: fixed;
+  bottom: 15%;
+  right: 2%;
+  margin: 0;
+  height: 75px;
+
+  }
+
+  .search-box >* {
+    background-color: #3A539B;
+    color: #FEFEFE;
+    padding: 5px;
+
+  }
+
+  .sign-up {
+    margin: 0;
+    }
+
+.enter-box {
+  margin: 10px;
+  background-color: #FEFEFE;
+  color: #D5D4C8;
+  padding: .25px;
+  width: 90%;
+  }
