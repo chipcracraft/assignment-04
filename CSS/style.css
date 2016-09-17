@@ -1,11 +1,11 @@
 *{ box-sizing: border-box;
   /*outline: rgba(100,0,0, .25) 1px solid;*/
-  }
+}
 
-  img {
-    display: block;
-    width: 100%;
-  }
+img {
+  display: block;
+  width: 100%;
+}
 
 body {
   margin: 0;
@@ -37,21 +37,19 @@ header {
   width: 100%;
   font-size: 0;
   background-color: #2C2C2C;
-  }
+}
 
 
-  .logo {
-    display: inline-block;
-    width: 15%;
+.logo {
+  display: inline-block;
+  width: 15%;
 
-  }
+}
 
-  .label {
-    display: inline-block;
-    width: 53%;
-  }
-
-
+.label {
+  display: inline-block;
+  width: 53%;
+}
 
 .top-menu {
   background-color: #2C2C2C;
@@ -62,24 +60,24 @@ header {
 }
 
 .mini-menu p {
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 5px;
-    background-color: #FCF7E5;
-    display: inline-block;
-    font-size: medium;
-    vertical-align: top;
-  }
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: #FCF7E5;
+  display: inline-block;
+  font-size: medium;
+  vertical-align: top;
+}
 
-  .mini-menu mark {
-    background-color: #E8F1F9;
-    padding: 5px;
+p.highlight {
+  background-color: #E8F1F9;
+  padding: 5px;
 
 }
 
 
 .right-column,.leftcolumn {
-      display: inline-block;
+  display: inline-block;
 }
 .right-column  {
   width: 35%;
@@ -130,20 +128,24 @@ a {
   display:inline-block;
   width: 64%;
   font-size: medium;
-  }
+}
 
-  .campus {
-    padding-bottom: 20px;
-    vertical-align: top;
-    display: inline-block;
-    width: 50%;
-    }
+.articles {
+
+  border-top: 1px solid #EEE;
+}
+
+.campus {
+  padding-bottom: 20px;
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
 
 
 
 .mfah {
   display: inline-block;
-  margin: 0;
   width: 49%;
   padding-top: 40px;
 
@@ -155,7 +157,7 @@ a {
   padding-bottom: 50px;
   margin: 0;
 
-  }
+}
 
 .learn {
   padding-bottom: 5px;
@@ -165,45 +167,45 @@ a {
 
 
 
-  .alfred {
-    display: inline-block;
-    }
+.alfred {
+  display: inline-block;
+}
 
-  .glass h3 {
-    text-align: left;
-  }
+.glass h3 {
+  text-align: left;
+}
 
 .glassell {
   display: inline-block;
   width: 34%;
-  }
+}
 
-  .school {
-vertical-align: top;
-align: left;
-height:300px;
-padding-bottom: 30px;
+.school {
+  vertical-align: top;
+  text-align: left;
+  height:300px;
+  padding-bottom: 30px;
 
 }
 
 
-  .photo-info {
-    font-size: 12px;
-    display:inline-block;
-    width: 65%;
-    text-align: left;
-    vertical-align: top;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    }
+.photo-info {
+  font-size: 12px;
+  display:inline-block;
+  width: 65%;
+  text-align: left;
+  vertical-align: top;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
 
-    .photo-info h4 {
-      line-height: .25px;
-      }
+.photo-info h4 {
+  line-height: .25px;
+}
 
 
 .footer-main {
-    border-top: 1px solid #DEDEDE;
+  border-top: 1px solid #DEDEDE;
 }
 
 .footer-main div {
@@ -223,30 +225,74 @@ padding-bottom: 30px;
 }
 
 .search-box {
-  width: 250px;
   position: fixed;
-  bottom: 15%;
-  right: 2%;
-  margin: 0;
-  height: 75px;
+  bottom: 50px;
+  right: 50px;
+  text-align: left;
+  background-color: #3A539B;
+  color: #FEFEFE;
+  padding: 10px;
 
-  }
+}
 
-  .search-box >* {
-    background-color: #3A539B;
-    color: #FEFEFE;
-    padding: 5px;
-
-  }
-
-  .sign-up {
-    margin: 0;
-    }
+.search-box h5 {
+  margin-top: 0;
+}
 
 .enter-box {
-  margin: 10px;
   background-color: #FEFEFE;
   color: #D5D4C8;
-  padding: .25px;
-  width: 90%;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+  .header {
+    padding: 9px 7px;
   }
+
+
+  .top-menu, .label, .search-box {
+    display: none;
+  }
+
+  .leftcolumn, .mini-menu p {
+    padding: 0 20px;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .mini-menu p {
+
+    padding: 4px 6px;
+  }
+
+  .leftcolumn > .legacy {
+    display: none;
+  }
+  .mfah, .glassell, .photo-info {
+    width: 100%;
+
+  }
+
+  .mfah img {
+
+    height:auto;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+
+  .search-box {
+
+    dis
+  }
+
+
+
+
+}
