@@ -88,6 +88,20 @@ p.highlight {
 
 }
 
+.sect1 {
+  border-bottom: 1px dashed #F4F4F4;
+  padding: 10px 0;
+}
+
+.sect2 {
+  padding: 10px 0;
+}
+
+.sect2 span {
+  font-weight: bold;
+}
+
+
 
 .art, .sunday, .family {
   display: inline-block;
@@ -118,6 +132,7 @@ p.highlight {
 
 .view {
   text-align: right;
+  padding-bottom: 35px;
 }
 
 a {
@@ -139,7 +154,6 @@ a {
   padding-bottom: 20px;
   vertical-align: top;
   display: inline-block;
-  width: 50%;
 }
 
 
@@ -147,14 +161,16 @@ a {
 .mfah {
   display: inline-block;
   width: 49%;
-  padding-top: 40px;
+  padding-left: 15px;
+  float: right;
+  vertical-align: top;
 
 }
 
 .mfah img {
   vertical-align: top;
   height: 200px;
-  padding-bottom: 50px;
+  padding:  ;
   margin: 0;
 
 }
@@ -163,8 +179,6 @@ a {
   padding-bottom: 5px;
   margin-top: 0;
 }
-
-
 
 
 .alfred {
@@ -235,7 +249,7 @@ a {
 
 }
 
-.search-box h5 {
+/*.search-box h5 {
   margin-top: 0;
 }
 
@@ -243,16 +257,15 @@ a {
   background-color: #FEFEFE;
   color: #D5D4C8;
 
-}
+}*/
 
 
 
 @media screen and (max-width: 768px){
 
-  .header {
-    padding: 9px 7px;
+  .header, .logo {
+    padding: 10px;
   }
-
 
   .top-menu, .label, .search-box {
     display: none;
@@ -265,9 +278,15 @@ a {
 
   }
 
-  .mini-menu p {
+  .mini-menu {
+    vertical-align: middle;
+    padding: 25px 35px 0 35px;
 
+  }
+
+  .mini-menu p {
     padding: 4px 6px;
+    width: 85%;
   }
 
   .leftcolumn > .legacy {
@@ -278,21 +297,49 @@ a {
 
   }
 
-  .mfah img {
+  .photo-info {
+    padding-bottom: 0px;
+  }
 
+  .mfah {
+    padding: 0;
     height:auto;
+  }
+
+  .mfah img {
+    padding-bottom: 0;
+  }
+
+  .campus {
+    width: 100%
   }
 
   .right-column {
     width: 100%;
+    padding: 0 20px;
   }
 
-  .search-box {
+  .art, .sunday, .family {
+  width: 25%;
+  padding: 0 15px 15px;
+  }
 
-    dis
+  .footer-main {
+    border-top: 1px solid #F4F4F4;
   }
 
 
+  .footer-main div {
+    display: block;
+    font-size: 10px;
+    width: 75%;
 
+  }
 
-}
+  .sect1 {
+    border-bottom: 1px dashed #F4F4F4;
+  }
+
+  .border-around {
+    padding:0 0 20px 0px;
+  }
